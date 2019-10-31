@@ -7,4 +7,4 @@ int main( void )
     printf( "Welcome to C!\n" );
 
     return 0; /* Not in book, but required */
-}
+} /* End main */
