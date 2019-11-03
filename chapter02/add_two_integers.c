@@ -1,5 +1,6 @@
 /* Simple addition program */
 #include <stdio.h>
+#include <stdlib.h>
 
 /* function main start */
 int main( void )
@@ -16,5 +17,7 @@ int main( void )
     
     sum = integer1 + integer2; /* addition process */
 
-    return printf( "Sum is %d\n", sum); /* print sum */
+    printf( "Sum is %d\n", sum); /* print sum */
+
+    return EXIT_SUCCESS;
 } /* function main end */
