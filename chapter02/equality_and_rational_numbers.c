@@ -8,7 +8,7 @@ int main ( void )
 {
     int num1, num2; /* define number vars */
 
-    printf( "Enter two integers (num1 num2),\n" ); /* prompt the user for input */
+    printf( "Enter two integers (int1 int2),\n" ); /* prompt the user for input */
     printf( "and I will tell you the relationships they satisfy: " );
     
     scanf( "%d %d", &num1, &num2 ); /* assign input to vars */
