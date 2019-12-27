@@ -19,6 +19,11 @@ int main (void)
         puts( "Failed" );
     } /* end else */
 
+    puts( "Conditional Operators :" );
+
+    puts( grade >= 60 ? "Passed" : "Failed" ); /* either should work but the ide errors this one out */
+    grade >= 60 ? puts( "Passed" ) : puts( "Failed" );
+
     return EXIT_SUCCESS; /* C90 compliance */
 } 
 /* function main end */
