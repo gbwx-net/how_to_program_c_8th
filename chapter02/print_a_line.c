@@ -7,5 +7,5 @@ int main( void )
 {
     printf( "Welcome to C!\n" );
 
-    return EXIT_SUCCESS; /* Not in book, but required */
+    return EXIT_SUCCESS; /* C90 compliance */
 } /* End main */
