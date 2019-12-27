@@ -8,4 +8,5 @@ int main( void )
     printf( "Welcome to C!\n" );
 
     return EXIT_SUCCESS; /* C90 compliance */
-} /* End main */
+}
+/* function main end */

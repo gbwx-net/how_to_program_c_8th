@@ -19,5 +19,6 @@ int main( void )
 
     printf( "Sum is %d\n", sum); /* print sum */
 
-    return EXIT_SUCCESS;
-} /* function main end */
+    return EXIT_SUCCESS; /* C90 compliance */
+}
+/* function main end */

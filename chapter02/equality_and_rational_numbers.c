@@ -45,5 +45,5 @@ int main ( void )
     }
 
     return EXIT_SUCCESS; /* C90 compliance */
-} 
+}
 /* function main end */
